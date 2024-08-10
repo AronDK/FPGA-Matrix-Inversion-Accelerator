@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jul 30 01:38:42 2024
+# Process ID: 13588
+# Current directory: C:/Users/gonin/Documents/cs4601/deliver/Vivado/baseDesign_stream
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23932 C:\Users\gonin\Documents\cs4601\deliver\Vivado\baseDesign_stream\baseline_hls.xpr
+# Log file: C:/Users/gonin/Documents/cs4601/deliver/Vivado/baseDesign_stream/vivado.log
+# Journal file: C:/Users/gonin/Documents/cs4601/deliver/Vivado/baseDesign_stream\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 30 01:39:22 2024...

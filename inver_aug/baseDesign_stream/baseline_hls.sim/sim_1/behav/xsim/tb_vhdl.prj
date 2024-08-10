@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl work  \
+"../../../../baseline_hls.srcs/sim_1/new/tb.vhd" \
+
+# Do not sort compile order
+nosort

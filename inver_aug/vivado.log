@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Aug  2 02:04:58 2024
+# Process ID: 9392
+# Current directory: C:/Users/gonin/Documents/cs4601/proj/invert_matrix/inver_aug
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39204 C:\Users\gonin\Documents\cs4601\proj\invert_matrix\inver_aug\inver_aug.xpr
+# Log file: C:/Users/gonin/Documents/cs4601/proj/invert_matrix/inver_aug/vivado.log
+# Journal file: C:/Users/gonin/Documents/cs4601/proj/invert_matrix/inver_aug\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug  2 02:07:58 2024...

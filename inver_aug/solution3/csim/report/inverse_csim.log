@@ -1,0 +1,8 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../inver_aug_test.cpp in debug mode
+   Compiling ../../../../axi_stream.cpp in debug mode
+   Compiling ../../../../inver_aug.cpp in debug mode
+   Generating csim.exe
+ERR: [SIM 100] CSim failed with errors.
+INFO: [SIM 3] *************** CSIM finish ***************

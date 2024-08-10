@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr 19 15:17:49 2023
+# Process ID: 513561
+# Current directory: /home/junningfan/Documents/FPGA/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_xbar_0_synth_1
+# Command line: vivado -log design_4_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_4_xbar_0.tcl
+# Log file: /home/junningfan/Documents/FPGA/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_xbar_0_synth_1/design_4_xbar_0.vds
+# Journal file: /home/junningfan/Documents/FPGA/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_xbar_0_synth_1/vivado.jou
+# Running On: junningfan-B550-AORUS-PRO-AX, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 32, Host memory: 67332 MB
+#-----------------------------------------------------------
+source design_4_xbar_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/junningfan/Documents/FPGA/4601/Vitis_HLS/fir_demo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/junningfan/Documents/FPGA/4601/Vitis_HLS/fir_demo_stream'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx_tools/Vivado/2021.2/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_4_xbar_0, cache-ID = 31dca1c94ef9730d.
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 19 15:17:56 2023...

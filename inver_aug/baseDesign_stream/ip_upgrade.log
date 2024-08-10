@@ -1,0 +1,265 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr 17 17:09:14 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fir_stream_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of fir_stream_0 (junning:hls:fir_stream:1.0) from (Rev. 2112991661) to (Rev. 2112991688)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'fir_stream_0'.
+
+
+-Upgrade has added interface 'ap_ctrl' (xilinx.com:interface:acc_handshake:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'fir_stream_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'ap_done'
+
+-Upgrade has added port 'ap_idle'
+
+-Upgrade has added port 'ap_ready'
+
+-Upgrade has added port 'ap_start'
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr 17 17:09:14 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_4_fir_stream_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_4_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112991661) to (Rev. 2112991688)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_4_fir_stream_0_0'.
+
+
+-Upgrade has added interface 'ap_ctrl' (xilinx.com:interface:acc_handshake:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_4_fir_stream_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'ap_done'
+
+-Upgrade has added port 'ap_idle'
+
+-Upgrade has added port 'ap_ready'
+
+-Upgrade has added port 'ap_start'
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr 17 16:42:08 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_4_fir_stream_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_4_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112991601) to (Rev. 2112991661)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr 17 15:43:00 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_4_fir_stream_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_4_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112991352) to (Rev. 2112991601)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr 17 11:47:15 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_4_fir_stream_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_4_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112990243) to (Rev. 2112991352)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_4_fir_stream_0_0'.
+
+
+-Upgrade has removed interface 'interrupt'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_4_fir_stream_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'interrupt'
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Sun Apr 16 17:03:45 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_4_fir_stream_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_4_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112987509) to (Rev. 2112990243)
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Fri Apr 14 19:29:50 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_4_fir_stream_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_4_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112976058) to (Rev. 2112987509)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_4_fir_stream_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'output_r_TDATA' width 16 differs from original width 8
+
+-Upgraded port 'output_r_TKEEP' width 2 differs from original width 1
+
+-Upgraded port 'output_r_TSTRB' width 2 differs from original width 1
+
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Fri Apr 14 19:29:49 2023
+| Host         : junningfan-B550-AORUS-PRO-AX running 64-bit Ubuntu 20.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xck26-sfvc784-2LV-c
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'axis_fir_stream_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of axis_fir_stream_0_0 (junning:hls:fir_stream:1.0) from (Rev. 2112976058) to (Rev. 2112987509)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'axis_fir_stream_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'output_r_TDATA' width 16 differs from original width 8
+
+-Upgraded port 'output_r_TKEEP' width 2 differs from original width 1
+
+-Upgraded port 'output_r_TSTRB' width 2 differs from original width 1
+
+

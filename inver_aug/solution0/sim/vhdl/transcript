@@ -1,0 +1,131 @@
+# do cosim.modelsim.scr 
+# 
+#     set fl [open ".exit.err" w]
+#     puts $fl "Elaboration errors in executing modelsim simulator"
+#     close $fl
+#     quit
+# 
+# C:/clibs
+# nt64
+# 1
+# C:/clibs/questa/10.1d/nt64/lib
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package NUMERIC_STD
+# -- Compiling package AESL_sim_components
+# -- Compiling package body AESL_sim_components
+# -- Loading package AESL_sim_components
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity AESL_automem_A
+# -- Compiling architecture behav of AESL_automem_A
+# ** Warning: AESL_automem_A.vhd(43): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: [4] AESL_automem_A.vhd(336): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] AESL_automem_A.vhd(338): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] AESL_automem_A.vhd(348): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] AESL_automem_A.vhd(350): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity AESL_automem_B_V
+# -- Compiling architecture behav of AESL_automem_B_V
+# ** Warning: AESL_automem_B_V.vhd(43): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: [4] AESL_automem_B_V.vhd(334): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] AESL_automem_B_V.vhd(336): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] AESL_automem_B_V.vhd(343): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] AESL_automem_B_V.vhd(345): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity apatb_inverse_top
+# -- Compiling architecture behav of apatb_inverse_top
+# ** Warning: inverse.autotb.vhd(78): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: inverse.autotb.vhd(79): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: inverse.autotb.vhd(80): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: inverse.autotb.vhd(81): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: inverse.autotb.vhd(82): (vcom-1236) Shared variables must be of a protected type.
+# 
+# ** Warning: inverse.autotb.vhd(84): (vcom-1236) Shared variables must be of a protected type.
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity inverse
+# -- Compiling architecture behav of inverse
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity inverse_aug_V_ram
+# -- Compiling architecture rtl of inverse_aug_V_ram
+# ** Warning: inverse_aug_V.vhd(38): (vcom-1236) Shared variables must be of a protected type.
+# 
+# -- Compiling entity inverse_aug_V
+# -- Compiling architecture arch of inverse_aug_V
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity inverse_sdiv_36nsbkb_div_u
+# -- Compiling architecture rtl of inverse_sdiv_36nsbkb_div_u
+# -- Compiling entity inverse_sdiv_36nsbkb_div
+# -- Compiling architecture rtl of inverse_sdiv_36nsbkb_div
+# -- Compiling entity inverse_sdiv_36nsbkb
+# -- Compiling architecture arch of inverse_sdiv_36nsbkb
+# vsim -L work -L unisim -L xpm -suppress 6630 -t 10ps apatb_inverse_top glbl 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.apatb_inverse_top(behav)
+# ALTERA version supports only a single HDL
+# Error loading design
+# Error: Error loading design 
+#        Executing onElabError command(s): 
+#     set fl [open ".exit.err" w]
+#     puts $fl "Elaboration errors in executing modelsim simulator"
+#     close $fl
+#     quit
+#  

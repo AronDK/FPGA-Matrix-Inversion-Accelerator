@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="axi_stream.cpp" path="C:\Users\gonin\Documents\cs4601\proj\invert_matrix\axi_stream.cpp"/>
+    <originFiles name="inver_aug.cpp" path="C:\Users\gonin\Documents\cs4601\proj\invert_matrix\inver_aug.cpp"/>
+    <originFiles name="inver_aug.h" path="C:\Users\gonin\Documents\cs4601\proj\invert_matrix\inver_aug.h"/>
+  </source>
+  <testbench>
+    <originFiles name="golden.dat" path="C:\Users\gonin\Documents\cs4601\proj\invert_matrix\golden.dat"/>
+    <originFiles name="inver_aug_test.cpp" path="C:\Users\gonin\Documents\cs4601\proj\invert_matrix\inver_aug_test.cpp"/>
+    <originFiles name="matrices.dat" path="C:\Users\gonin\Documents\cs4601\proj\invert_matrix\matrices.dat"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

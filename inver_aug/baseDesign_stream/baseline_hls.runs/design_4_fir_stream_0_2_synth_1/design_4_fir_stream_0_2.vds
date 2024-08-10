@@ -1,0 +1,784 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed May 24 23:08:24 2023
+# Process ID: 63702
+# Current directory: /media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1
+# Command line: vivado -log design_4_fir_stream_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_4_fir_stream_0_2.tcl
+# Log file: /media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/design_4_fir_stream_0_2.vds
+# Journal file: /media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/vivado.jou
+# Running On: junningfan-B550-AORUS-PRO-AX, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 32, Host memory: 67332 MB
+#-----------------------------------------------------------
+source design_4_fir_stream_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado_HLS/fir_demo_stream'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx_tools/Vivado/2021.2/data/ip'.
+Command: synth_design -top design_4_fir_stream_0_2 -part xck26-sfvc784-2LV-c -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 63770
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2821.617 ; gain = 146.766 ; free physical = 15883 ; free virtual = 64722
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_4_fir_stream_0_2' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_fir_stream_0_2/synth/design_4_fir_stream_0_2.v:58]
+INFO: [Synth 8-6157] synthesizing module 'fir_stream' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream.v:12]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-6157] synthesizing module 'fir_stream_AXILiteS_s_axi' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_AXILiteS_s_axi.v:6]
+INFO: [Synth 8-155] case statement is not full and has no default [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_AXILiteS_s_axi.v:665]
+INFO: [Synth 8-6155] done synthesizing module 'fir_stream_AXILiteS_s_axi' (1#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_AXILiteS_s_axi.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fir_stream_mac_mubkb' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_mac_mubkb.v:30]
+INFO: [Synth 8-6157] synthesizing module 'fir_stream_mac_mubkb_DSP48_0' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_mac_mubkb.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'fir_stream_mac_mubkb_DSP48_0' (2#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_mac_mubkb.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'fir_stream_mac_mubkb' (3#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream_mac_mubkb.v:30]
+INFO: [Synth 8-6157] synthesizing module 'regslice_both' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ibuf' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'ibuf' (4#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6157] synthesizing module 'obuf' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'obuf' (5#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'regslice_both' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'regslice_both__parameterized0' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ibuf__parameterized0' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'ibuf__parameterized0' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6157] synthesizing module 'obuf__parameterized0' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'obuf__parameterized0' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'regslice_both__parameterized0' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'regslice_both__parameterized1' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ibuf__parameterized1' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'ibuf__parameterized1' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6157] synthesizing module 'obuf__parameterized1' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'obuf__parameterized1' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'regslice_both__parameterized1' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'regslice_both__parameterized2' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6157] synthesizing module 'ibuf__parameterized2' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6155] done synthesizing module 'ibuf__parameterized2' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:372]
+INFO: [Synth 8-6157] synthesizing module 'obuf__parameterized2' [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'obuf__parameterized2' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'regslice_both__parameterized2' (6#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/regslice_core.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'fir_stream' (7#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ipshared/793e/hdl/verilog/fir_stream.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'design_4_fir_stream_0_2' (8#1) [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_fir_stream_0_2/synth/design_4_fir_stream_0_2.v:58]
+WARNING: [Synth 8-7129] Port WDATA[31] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[30] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[29] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[28] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[27] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[26] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[25] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[24] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[23] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[22] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[21] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[20] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[19] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[18] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[17] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[16] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[15] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[14] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[13] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[12] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[11] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[10] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[9] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[8] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2905.555 ; gain = 230.703 ; free physical = 14349 ; free virtual = 63203
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2923.367 ; gain = 248.516 ; free physical = 16079 ; free virtual = 64934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2923.367 ; gain = 248.516 ; free physical = 16078 ; free virtual = 64933
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2923.367 ; gain = 0.000 ; free physical = 16088 ; free virtual = 64943
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_fir_stream_0_2/constraints/fir_stream_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.gen/sources_1/bd/design_4/ip/design_4_fir_stream_0_2/constraints/fir_stream_ooc.xdc] for cell 'inst'
+Parsing XDC File [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3085.086 ; gain = 0.000 ; free physical = 15963 ; free virtual = 64829
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3085.086 ; gain = 0.000 ; free physical = 15961 ; free virtual = 64827
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3085.086 ; gain = 410.234 ; free physical = 16083 ; free virtual = 64947
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3085.086 ; gain = 410.234 ; free physical = 16082 ; free virtual = 64946
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3085.086 ; gain = 410.234 ; free physical = 16080 ; free virtual = 64944
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'fir_stream_AXILiteS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'fir_stream_AXILiteS_s_axi'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'fir_stream_AXILiteS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'fir_stream_AXILiteS_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3085.086 ; gain = 410.234 ; free physical = 16032 ; free virtual = 64899
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'inst/regslice_both_output_V_keep_V_U' (regslice_both__parameterized2) to 'inst/regslice_both_output_V_strb_V_U'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   8 Input   14 Bit       Adders := 3     
+	   4 Input   14 Bit       Adders := 2     
+	   5 Input   14 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 2     
+	               14 Bit    Registers := 5     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 128   
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 15    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   17 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 1     
+	  65 Input    8 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   6 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 12    
+	   4 Input    2 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 28    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*B2.
+DSP Report: register signal_V_0_reg is absorbed into DSP fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*B.
+DSP Report: operator fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2208_p2 is absorbed into DSP fir_stream_mac_mubkb_U1/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_4_reg is absorbed into DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*B''.
+DSP Report: register signal_V_0_reg is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: register signal_V_1_reg is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2217_p2 is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN''.
+DSP Report: register signal_V_1_reg is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: register signal_V_2_reg is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U2/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_3_reg is absorbed into DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2226_p2 is absorbed into DSP fir_stream_mac_mubkb_U3/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_8_reg is absorbed into DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_5_reg is absorbed into DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2235_p2 is absorbed into DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_6_reg is absorbed into DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U4/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_7_reg is absorbed into DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2244_p2 is absorbed into DSP fir_stream_mac_mubkb_U5/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_12_reg is absorbed into DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_9_reg is absorbed into DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2253_p2 is absorbed into DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_10_reg is absorbed into DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U6/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_11_reg is absorbed into DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2262_p2 is absorbed into DSP fir_stream_mac_mubkb_U7/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_14_reg is absorbed into DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_13_reg is absorbed into DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2271_p2 is absorbed into DSP fir_stream_mac_mubkb_U8/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_32_reg is absorbed into DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_15_reg is absorbed into DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2280_p2 is absorbed into DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_16_reg is absorbed into DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U9/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_17_reg is absorbed into DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2289_p2 is absorbed into DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_18_reg is absorbed into DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U10/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_19_reg is absorbed into DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2298_p2 is absorbed into DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_20_reg is absorbed into DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U11/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_21_reg is absorbed into DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2307_p2 is absorbed into DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_22_reg is absorbed into DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U12/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_23_reg is absorbed into DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2316_p2 is absorbed into DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_24_reg is absorbed into DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U13/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_25_reg is absorbed into DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2325_p2 is absorbed into DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_26_reg is absorbed into DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U14/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_27_reg is absorbed into DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2334_p2 is absorbed into DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_28_reg is absorbed into DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U15/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_29_reg is absorbed into DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2343_p2 is absorbed into DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_30_reg is absorbed into DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U16/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_31_reg is absorbed into DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2352_p2 is absorbed into DSP fir_stream_mac_mubkb_U17/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_36_reg is absorbed into DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_33_reg is absorbed into DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2361_p2 is absorbed into DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_34_reg is absorbed into DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U18/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_35_reg is absorbed into DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2370_p2 is absorbed into DSP fir_stream_mac_mubkb_U19/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_38_reg is absorbed into DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_37_reg is absorbed into DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2379_p2 is absorbed into DSP fir_stream_mac_mubkb_U20/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_40_reg is absorbed into DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_39_reg is absorbed into DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2388_p2 is absorbed into DSP fir_stream_mac_mubkb_U21/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_44_reg is absorbed into DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_41_reg is absorbed into DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2397_p2 is absorbed into DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_42_reg is absorbed into DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U22/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_43_reg is absorbed into DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2406_p2 is absorbed into DSP fir_stream_mac_mubkb_U23/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_46_reg is absorbed into DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_45_reg is absorbed into DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2415_p2 is absorbed into DSP fir_stream_mac_mubkb_U24/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_48_reg is absorbed into DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_47_reg is absorbed into DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2424_p2 is absorbed into DSP fir_stream_mac_mubkb_U25/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_52_reg is absorbed into DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_49_reg is absorbed into DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2433_p2 is absorbed into DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_50_reg is absorbed into DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U26/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_51_reg is absorbed into DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2442_p2 is absorbed into DSP fir_stream_mac_mubkb_U27/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_56_reg is absorbed into DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_53_reg is absorbed into DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2451_p2 is absorbed into DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_54_reg is absorbed into DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U28/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_55_reg is absorbed into DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2460_p2 is absorbed into DSP fir_stream_mac_mubkb_U29/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_60_reg is absorbed into DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_57_reg is absorbed into DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2469_p2 is absorbed into DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_58_reg is absorbed into DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U30/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_59_reg is absorbed into DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2478_p2 is absorbed into DSP fir_stream_mac_mubkb_U31/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/m, operation Mode is: A*BCIN2.
+DSP Report: register signal_V_62_reg is absorbed into DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: operator fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/m is absorbed into DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/m.
+DSP Report: Generating DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/p, operation Mode is: C+A*BCIN2.
+DSP Report: register signal_V_61_reg is absorbed into DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/p is absorbed into DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/p.
+DSP Report: operator grp_fu_2487_p2 is absorbed into DSP fir_stream_mac_mubkb_U32/fir_stream_mac_mubkb_DSP48_0_U/p.
+WARNING: [Synth 8-7129] Port WDATA[31] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[30] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[29] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[28] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[27] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[26] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[25] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[24] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[23] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[22] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[21] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[20] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[19] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[18] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[17] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[16] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[15] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[14] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[13] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[12] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[11] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[10] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[9] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WDATA[8] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WSTRB[3] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WSTRB[2] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WSTRB[1] in module fir_stream_AXILiteS_s_axi is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (fir_stream_AXILiteS_s_axi_U/FSM_onehot_wstate_reg[0]) is unused and will be removed from module fir_stream.
+WARNING: [Synth 8-3332] Sequential element (fir_stream_AXILiteS_s_axi_U/FSM_onehot_rstate_reg[0]) is unused and will be removed from module fir_stream.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 3085.086 ; gain = 410.234 ; free physical = 15743 ; free virtual = 64621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                  | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|fir_stream                   | A*B2        | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream_mac_mubkb_DSP48_0 | C+A*B       | 8      | 8      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*B''     | 8      | 8      | 14     | -      | 14     | 0    | 2    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN''    | 8      | 8      | -      | -      | 16     | 0    | 2    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
+|fir_stream                   | A*BCIN2     | 8      | 8      | -      | -      | 16     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|fir_stream                   | C+A*BCIN2   | 8      | 8      | 14     | -      | 14     | 0    | 1    | 0    | -    | -     | 0    | 0    | 
++-----------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 3459.508 ; gain = 784.656 ; free physical = 14309 ; free virtual = 63187
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+WARNING: [Synth 8-6779] Delay data for wire-load model not found, using default value
+INFO: [Common 17-14] Message 'Synth 8-6779' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 3482.508 ; gain = 807.656 ; free physical = 14628 ; free virtual = 63507
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3509.547 ; gain = 834.695 ; free physical = 14750 ; free virtual = 63625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14796 ; free virtual = 63665
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14796 ; free virtual = 63665
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14797 ; free virtual = 63666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14797 ; free virtual = 63666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14797 ; free virtual = 63666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14797 ; free virtual = 63666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |CARRY8          |    26|
+|2     |DSP_ALU         |    64|
+|3     |DSP_A_B_DATA    |    64|
+|7     |DSP_C_DATA      |    64|
+|9     |DSP_MULTIPLIER  |    64|
+|10    |DSP_M_DATA      |    64|
+|11    |DSP_OUTPUT      |    64|
+|12    |DSP_PREADD      |    64|
+|13    |DSP_PREADD_DATA |    64|
+|14    |LUT1            |     1|
+|15    |LUT2            |    11|
+|16    |LUT3            |   751|
+|17    |LUT4            |   143|
+|18    |LUT5            |   121|
+|19    |LUT6            |   198|
+|20    |MUXF7           |    64|
+|21    |MUXF8           |    32|
+|22    |FDRE            |   666|
+|23    |FDSE            |     1|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 3516.484 ; gain = 841.633 ; free physical = 14797 ; free virtual = 63666
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8757 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 3516.484 ; gain = 679.914 ; free physical = 14835 ; free virtual = 63704
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3516.492 ; gain = 841.633 ; free physical = 14835 ; free virtual = 63704
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3528.453 ; gain = 0.000 ; free physical = 15331 ; free virtual = 64200
+INFO: [Netlist 29-17] Analyzing 186 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3589.219 ; gain = 0.000 ; free physical = 18399 ; free virtual = 67269
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 64 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 64 instances
+
+Synth Design complete, checksum: ff76c2ca
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 170 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:28 . Memory (MB): peak = 3589.219 ; gain = 990.367 ; free physical = 18628 ; free virtual = 67498
+INFO: [Common 17-1381] The checkpoint '/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/design_4_fir_stream_0_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_4_fir_stream_0_2, cache-ID = 721cc22f93f65536
+INFO: [Coretcl 2-1174] Renamed 78 cell refs.
+INFO: [Common 17-1381] The checkpoint '/media/junningfan/SSD_LITEON/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_fir_stream_0_2_synth_1/design_4_fir_stream_0_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_4_fir_stream_0_2_utilization_synth.rpt -pb design_4_fir_stream_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 24 23:09:02 2023...

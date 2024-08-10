@@ -1,0 +1,56 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'inverse'" level="0">
+<item name = "Date">Fri Aug  2 03:17:47 2024
+</item>
+<item name = "Version">2020.1 (Build 2897737 on Wed May 27 20:21:37 MDT 2020)</item>
+<item name = "Project">inver_aug</item>
+<item name = "Solution">solution0</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xqzu5ev-ffrb900-1-i</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 7.770 ns, 1.25 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">12398, 16498, 0.124 ms, 0.165 ms, 12398, 16498, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- loop_input_row_loop_input_col">100, 100, 1, 1, 1, 100, yes</column>
+<column name="- Ini_Aug_loop">330, 330, 33, -, -, 10, no</column>
+<column name=" + Ini_Aug_loop_1">20, 20, 2, -, -, 10, no</column>
+<column name=" + Ini_Aug_loop_2">10, 10, 1, -, -, 10, no</column>
+<column name="- Row_Operation">11640, 15740, 1164 ~ 1574, -, -, 10, no</column>
+<column name=" + Row_Operation.1">1140, 1140, 57, -, -, 20, no</column>
+<column name=" + Row_Operation.2">20, 430, 2 ~ 43, -, -, 10, no</column>
+<column name="  ++ Row_Operation.2.1">40, 40, 2, -, -, 20, no</column>
+<column name="- Extract_loop">220, 220, 22, -, -, 10, no</column>
+<column name=" + Extract_loop_1">20, 20, 2, -, -, 10, no</column>
+<column name="- loop_output_row_loop_output_col">101, 101, 3, 1, 1, 100, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

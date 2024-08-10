@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed May 24 14:57:16 2023
+# Process ID: 2024
+# Current directory: H:/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_xbar_2_synth_1
+# Command line: vivado.exe -log design_4_xbar_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_4_xbar_2.tcl
+# Log file: H:/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_xbar_2_synth_1/design_4_xbar_2.vds
+# Journal file: H:/UbuntuShared/4601/Vivado/baseDesign_stream/baseline_hls.runs/design_4_xbar_2_synth_1\vivado.jou
+# Running On: Haoxi-PC, OS: Windows, CPU Frequency: 3394 MHz, CPU Physical cores: 32, Host memory: 68621 MB
+#-----------------------------------------------------------
+source design_4_xbar_2.tcl -notrace
